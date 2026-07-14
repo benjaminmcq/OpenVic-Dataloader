@@ -4,7 +4,7 @@
 	ignore = dirty
 [submodule "scripts"]
 	path = scripts
-	url = https://github.com/OpenVicProject/scripts
+	url = https://github.com/benjaminmcq/scripts
 [submodule "deps/dryad"]
 	path = deps/dryad
 	url = https://github.com/Spartan322/dryad
