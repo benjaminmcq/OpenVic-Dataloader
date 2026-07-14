@@ -22,5 +22,5 @@
 	ignore = dirty
 [submodule "deps/vmcontainer"]
 	path = deps/vmcontainer
-	url = https://github.com/spartan322/vmcontainer
+	url = https://github.com/benjaminmcq/vmcontainer
 	ignore = dirty
