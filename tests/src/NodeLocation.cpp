@@ -1,4 +1,5 @@
 #include <string_view>
+#include <span>
 
 #include <openvic-dataloader/NodeLocation.hpp>
 
@@ -38,7 +39,7 @@ TEST_CASE("NodeLocation", "[node-location]") {
 	static constexpr auto char_buffer = "buffer"sv;
 
 	static constexpr unsigned char uarray[] = "buffer";
-	static constexpr std::basic_string_view<unsigned char> uchar_buffer = uarray;
+	static constexpr std::span<unsigned char const> uchar_buffer = uarray;
 
 	static constexpr auto char_16_buffer = u"buffer"sv;
 	static constexpr auto char_32_buffer = U"buffer"sv;
